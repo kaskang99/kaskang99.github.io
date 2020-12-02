@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.falso-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+.alarmes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+
+}
+
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid2x2 > div {
+    border: 0.1rem solid black;
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    background-color: #33FDAD;
+    margin: 1rem;
+    margin-top: 4rem;
+    height: 6rem;
+    justify-content: center;
+}
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-bottom: .1rem solid black;
+    background-color: #3FEEFA;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aba {
+    color: black;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border: .1rem solid black;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    top: 0;
+    left: 0;
+    background-color: #64FA2F;
+}
+
+.botao {
+    justify-content: center;
+}
+
+.botao:active {
+
+    border-top-color: black;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: black;
+    justify-content: center;
+}
+
+.botao:active span{
+    justify-content: center;
+    top: 1rem;
+    left: 1rem;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-family: 'Signika', sans-serif;
+}

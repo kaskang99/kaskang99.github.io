@@ -1,0 +1,126 @@
+html {
+    color: #7745FF ;
+}
+
+body {
+    background-color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.falso-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: #3FEEFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.titulo {
+    color: #7745FF ;
+    font-size: 2rem;
+    font-family: 'Signika', sans-serif;
+}
+
+.aba {
+    background-color: #64FA2F;
+    color: black;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border: .1rem solid black;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    top: 0;
+    left: 0;
+}
+
+.grid-inicial {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    width: 9rem;
+    height: 5rem;
+    margin-bottom: 1.2rem;
+    border: .1rem solid black;
+    border-radius: .5rem;
+}
+
+.horas-de-jogo {
+    align-self: center;
+}
+
+.horas-de-jogo::after {
+    content: "\a";
+    white-space: pre;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.jogo-mais-jogado {
+    display: flex;
+    position: relative;
+    justify-content: center;    
+}
+
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.grid2x2 > div {
+    border: .1rem solid black;
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+.grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+.box { 
+    background-color: #33FDAD;
+    margin: 1rem;
+    margin-top: 3rem;
+    height: 6rem;
+ }

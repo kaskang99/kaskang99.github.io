@@ -1,0 +1,88 @@
+html {
+    color: #7745FF ;
+}
+
+body {
+    background-color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.falso-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+header {
+    color: #7745FF ;
+    background-color: #3FEEFA ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-family: 'Signika', sans-serif;
+}
+
+.aba {
+    background-color: #64FA2F;
+    color: black;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    border: .1rem solid black;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    top: 0;
+    left: 0;
+}
+
+.contato {
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid black;
+}
+
+.foto-edu {
+    display: flex;
+    justify-content: left;
+    margin-bottom: .2rem;
+    margin-right: 7.5rem;
+    border-radius: 50%;
+    width: 10%;
+}
+
+.nome-contato {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: .6rem;  
+}
+
+.chat-input {
+    align-self: center;
+    margin-top: 30rem;
+    margin-right: 0.5rem;
+}

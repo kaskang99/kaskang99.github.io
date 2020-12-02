@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.falso-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+header {
+    color: #7745FF ;
+    background-color: #3FEEFA ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 8rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-family: 'Signika', sans-serif;
+}
+
+.login-stuff {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.insert-text, .insert-password {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.input {
+    margin-bottom: 1rem;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-self: center;
+}
+
+.link-botao  {
+    background-color: #3385FD ;
+    display: flex;
+    position: relative;
+    align-self: center;
+    justify-content: center;
+    width: 2.8rem;
+    margin-top: 1rem;
+    display: block;
+    border: .1rem solid black;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: .5rem;   
+}
